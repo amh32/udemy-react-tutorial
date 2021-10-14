@@ -10,16 +10,13 @@
             "reAttach": true,
             "name": "Launch localhost",
             "url": "http://localhost:3000/",
-            "webRoot": "${workspaceFolder}\\src\\App.js"
-        },
-        // {
-        //     "type": "pwa-node",
-        //     "request": "launch",
-        //     "name": "Launch Program",
-        //     "skipFiles": [
-        //         "<node_internals>/**"
-        //     ],
-        //     "program": "${workspaceFolder}\\src\\App.js"
-        // }
+            "webRoot": "${workspaceFolder}\\src\\App.js",
+            "pathMappings": [
+                {
+                    "url": "file:///C:/Users/Hasti/my-app/src",
+                    "path": "${workspaceFolder}/src"
+                }
+            ]
+        }
     ]
 }
